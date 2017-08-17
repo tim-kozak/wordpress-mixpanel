@@ -1,4 +1,4 @@
-# Mixpanel tracker for wordpress and woocommerce analysis 
+# MXTracker - Mixpanel tracker for wordpress and woocommerce analysis 
 Wrapper around Mixpanel PHP and JS libs for advanced events tracking
 
 Main point is to have all events in one place will it be frontend events or backend or ajax triggered.

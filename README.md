@@ -15,7 +15,7 @@ There is:
  - js_set_super_properties
  - etc.
  
-##Setup steps
+## Setup steps
 1. Clone this files to your theme folder
 2. Copy your Mixpanel token for next step
 3. Insert this code in your `functions.php`

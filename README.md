@@ -8,7 +8,7 @@ We inserting js library to each page automatically along with PHP library for ea
 Doing `identify` automatically on frontend and backend. 
 And you can chose place where you want to track particular event or property.
 
-There is:
+Here is the main methods:
  - api_track_event
  - js_track_event
  - api_set_super_properties
@@ -34,5 +34,5 @@ There is:
  }
  </pre>
 4. Update `tools.php` - change HEAD_SCRIPT_HANDLER to any script you equeued with `wp_enqueue_script()`
-5. Put all your call to  `mixpanel/tracking_file.php`
+5. Put all your tracking code into `mixpanel/tracking_file.php`
 

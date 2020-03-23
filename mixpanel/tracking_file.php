@@ -88,7 +88,7 @@ add_action( 'clear_auth_cookie', function(){
 
 add_action( 'user_register', function ( $user_id ) {
 
-    $user = get_user_by( 'id', $user_id() );
+    $user = get_user_by( 'id', $user_id );
 
     //if you need to force set user on login/logout/registration
     MXTracker::instance()->set_user( $user );
